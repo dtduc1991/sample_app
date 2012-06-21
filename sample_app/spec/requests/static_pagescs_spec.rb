@@ -38,6 +38,7 @@ describe "Static pages" do
     let(:page_title) { 'About' }   
     
     it_should_behave_like "all static pages"
+    
 
   end
   
