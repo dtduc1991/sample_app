@@ -32,7 +32,7 @@ describe "Static pages" do
 
   describe "About page" do
 
-    before { visit help_path }
+    before { visit about_path }
   
     let(:heading)    { 'About Us' }
     let(:page_title) { 'About' }   
@@ -45,7 +45,7 @@ describe "Static pages" do
   describe "Contact page" do
 
 
-    before { visit help_path }
+    before { visit contact_path }
   
     let(:heading)    { 'Contact' }
     let(:page_title) { 'Contact' }   
